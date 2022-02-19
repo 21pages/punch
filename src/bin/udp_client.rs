@@ -1,7 +1,7 @@
 use anyhow::Result;
 use clap::Parser;
 use log;
-use punch::*;
+use punch::simple::*;
 use std::net::SocketAddr;
 use tokio::{
     self,

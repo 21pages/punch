@@ -1,6 +1,6 @@
 use anyhow::Result;
 use log;
-use punch::*;
+use punch::simple::*;
 use std::{collections::HashMap, net::SocketAddr};
 use tokio::{self, net::UdpSocket};
 
